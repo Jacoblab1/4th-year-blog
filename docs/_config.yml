@@ -21,7 +21,7 @@
 title: 4th Year Project - Web/Backend Team
 description: >- # this means to ignore newlines until "baseurl:"
   This site is a weekly blog about updates to our Web/Backend 4th Year Project.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/project-blog" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 
