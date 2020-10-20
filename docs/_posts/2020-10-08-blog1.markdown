@@ -22,8 +22,7 @@ After meeting with Bruno and discussing the format of the new tables added we de
 
 Current Layout of our database:
 
-
-![Alt](images/databaseOctober20.jpeg)
+![Alt](https://github.com/Jacoblab1/project-blog/blob/master/docs/_posts/images/databaseOctober20.jpeg?raw=true)
 
 Changes recommended from meeting with Bruno have not been implemented yet.
 
