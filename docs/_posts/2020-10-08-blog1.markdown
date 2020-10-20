@@ -1,6 +1,11 @@
-<div align="center">
- <h1> October 13 – 20th </h1> 
-</div>
+
+---
+layout: post
+title:  "Blog 1"
+date:   2020-10-19 13:34:20 +0600
+categories: updates
+---
+
 This week we continued to work on developing the database by adding 5 new tables
 <div align = "left">
     <table>
