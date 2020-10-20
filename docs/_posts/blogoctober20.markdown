@@ -1,0 +1,43 @@
+<div align="center">
+ <h1> October 13 – 20th </h1> 
+</div>
+This week we continued to work on developing the database by adding 5 new tables
+<div align = "left">
+    <table>
+        <tr>
+            <td><strong>Table</strong</td><td> <strong> Description </strong> </td>
+        </tr>
+        <tr>
+            <td>project_model</td><td> Links projects to models is n to n></td>
+        </tr>
+        <tr>
+            <td>port</td><td> Ports are comments of models></td>
+        </tr>
+        <tr>
+            <td>model_port</td><td> Links ports to models is n to n></td>
+        </tr>
+        <tr>
+            <td>file</td><td> ny file a project consists of </td>
+        </tr>
+        <tr>
+            <td>project_file</td><td> Links files to a project is n to n </td>
+        </tr>
+    </table>
+<div>
+
+
+
+After meeting with Bruno and discussing the format of the new tables added we decided on a few changes.
+
+1. Each project should have one model, which can be a coupled model containing more models until each model is atomic. This mean rather than having n to n relation between project and model. A project has 1 to 1 relation with the root of a hierarchy tree of models.
+1. Models should be able to have a relationship with files as well. 
+1. Ports are related to only one model; therefore, the relationship should be changed to one model can have multiple ports, but each port can only belong to one model. (1 -n)
+1. 	Each file should be related to a person so in the future if a file needs to be re-examined the correct person or people can be contacted. 
+
+Current Layout of our database:
+
+
+![Alt](images/databaseOctober20.jpeg "Title")
+
+Changes recommended from meeting with Bruno have not been implemented yet.
+
