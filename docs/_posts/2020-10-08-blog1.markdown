@@ -23,7 +23,7 @@ After meeting with Bruno and discussing the format of the new tables added we de
 Current Layout of our database:
 
 
-![Alt](/docs/_posts/images/databaseOctober20.jpeg)
+![Alt](images/databaseOctober20.jpg)
 
 Changes recommended from meeting with Bruno have not been implemented yet.
 
