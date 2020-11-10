@@ -14,3 +14,26 @@ Current Layout of our database:
 
 Changes recommended from meeting with Bruno have not been implemented yet.
 
+# Setting up Heroku
+
+We also spent some time working to configure the arslab-services project to be deployed with Heroku.
+
+Currently, the Java web application is running successfully after we writing some configuration files to ensure that it and all of it's dependencies were built correctly.
+
+The modules to build the project were configured like so:
+
+{% highlight xml %}
+   <modules>
+      <module>sim.services</module>
+      <module>sim.parsing</module>
+      <module>sim.rise.ext</module>
+   </modules>
+{% endhighlight %}
+
+Then, we created a Procfile to tell Heroku what command should be used to run the server.
+
+{% highlight bash %}
+  web: java $JAVA_OPTS -jar target/dependency/webapp-runner.jar --port $PORT sim.services/target/sim.services.war
+{% endhighlight %}
+
+The Heroku project has also been configured to automatically deploy from Github, so whenever we make changes to our repository it will automatically build the new version of our code.
