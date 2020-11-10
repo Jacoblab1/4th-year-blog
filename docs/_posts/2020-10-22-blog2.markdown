@@ -2,6 +2,6 @@
 
 This week our focus was on the Project Proposal due November 2nd at noon
 
-The final proposal can be seen at: https://github.com/Jacoblab1/project-blog/blob/master/docs/_posts/files/proposal.pdf
+This is the final verison of our proposal: [proposal.pfd](https://github.com/Jacoblab1/project-blog/blob/master/docs/_posts/files/proposal.pdf)
 
 This week was also our fall reading week, no changes to the database were made
