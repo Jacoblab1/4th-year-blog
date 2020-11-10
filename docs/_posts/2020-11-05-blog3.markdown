@@ -37,3 +37,5 @@ Then, we created a Procfile to tell Heroku what command should be used to run th
 {% endhighlight %}
 
 The Heroku project has also been configured to automatically deploy from Github, so whenever we make changes to our repository it will automatically build the new version of our code.
+
+Our next steps with Heroku will be to deploy our new database schema onto a Postgres DB and connect it with the web server that we have running.
