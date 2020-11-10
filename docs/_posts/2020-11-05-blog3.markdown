@@ -1,0 +1,16 @@
+**November 5th Blog 3**
+
+This week we continued to work on developing the database. We implemented the recommended changes suggested by Bruno in Blog 1. <br>
+A relationship between files and models was added, Ports now only relate with one model and Files now have an author.
+
+
+
+After meeting with Bruno and discussing the changes made to the database, we concluded that Files is a very large scope and needs to be divided into sub-entities. In the future, we are going to specialize the files table.
+
+
+Current Layout of our database:
+
+![Alt](https://github.com/Jacoblab1/project-blog/blob/master/docs/_posts/images/databaseNovember5.jpeg?raw=true)
+
+Changes recommended from meeting with Bruno have not been implemented yet.
+
