@@ -1,0 +1,18 @@
+**November 12th Blog 4**
+
+This week we finalized developing the database. <br>
+
+To make the database more organized, it was decided that files documents to project, such as project proposals, funding requests, publishments, etc, would be stored under a separate table than model files. Model files would only contain files directly related to models. With this implementation, we also decided to generalize the model files into three different types. Source File would be filed used to set up the initial model. When Source Files are run they create initial results which we called Original Results. The Results can be converted into Converted Results so they can be used with different applications. Additionally, we added a Model Children table that linked Coupled models with aggregated models (either more coupled or atomic models).
+
+After meeting with Bruno and discussing the changes made to the database, we concluded that the database was "complete" and we could begin testing it with data
+
+** It should be noted the Port table is no longer need, and will likely be removed in the future
+
+
+Current Layout of our database:
+
+![Alt](https://github.com/Jacoblab1/project-blog/blob/master/docs/_posts/images/databaseNovember12.png?raw=true)
+
+
+
+

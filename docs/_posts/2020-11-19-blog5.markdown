@@ -1,0 +1,16 @@
+**November 19th Blog 5**
+
+This week we tested inserting data into the database. <br>
+
+Last week Bruno provided us with around 5 different sets of models contains source, original, and converted files. We set up a fake project, with fake members, and added the models to the project. The database worked extremely well and all the relations between the files, models, projects and members worked as planned.
+
+After meeting with Bruno, we decided the next goal would be to set up services to our database using java
+
+
+Current Layout of our database:
+
+![Alt](https://github.com/Jacoblab1/project-blog/blob/master/docs/_posts/images/databaseNovember12.png?raw=true)
+
+
+
+
